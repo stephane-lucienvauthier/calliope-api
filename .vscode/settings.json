@@ -1,0 +1,8 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.pydocstyleEnabled": true,
+    "python.linting.pycodestyleEnabled": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+}
