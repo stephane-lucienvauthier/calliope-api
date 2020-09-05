@@ -8,11 +8,15 @@
             "name": "Python : Django",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}\\manage.py",
+            "program": "${workspaceFolder}/manage.py",
             "args": [
                 "runserver",
                 "0.0.0.0:8000"
             ],
+            "env": {
+                "POSTGRES_HOST": "calliope-db.pytech.local",
+                "POSTGRES_PASS": "calliope"
+            },
             "django": true
         }
     ]
