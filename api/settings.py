@@ -36,6 +36,7 @@ ALLOWED_HOSTS = [
 
 INSTALLED_APPS = [
     'authentication.apps.AuthenticationConfig',
+    'books.apps.BooksConfig',
     'rest_framework',
     'rest_framework.authtoken',
     'corsheaders',
@@ -87,8 +88,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres',
         'USER': 'postgres',
-        'PASSWORD': os.environ['POSTGRES_PASS'],
-        'HOST': os.environ['POSTGRES_HOST'],
+        'PASSWORD': os.environ['CALLIOPE_DB_PASS'],
+        'HOST': os.environ['CALLIOPE_DB_HOST'],
         'PORT': '5432',
     }
 }
