@@ -14,8 +14,8 @@
                 "0.0.0.0:8000"
             ],
             "env": {
-                "POSTGRES_HOST": "calliope-db.pytech.local",
-                "POSTGRES_PASS": "calliope"
+                "CALLIOPE_DB_HOST": "calliope-db.pytech.local",
+                "CALLIOPE_DB_PASS": "calliope"
             },
             "django": true
         }
